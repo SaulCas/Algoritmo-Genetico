@@ -1,0 +1,26 @@
+RESUMEN DEL PROYECTO FINAL
+
+Resultado del algoritmo original:
+Fitness final: -401
+NFE final: 1010
+Tiempo final: 0.6191 segundos
+Validacion de integridad: True
+
+Resultado del algoritmo mejorado:
+Fitness final: -292
+NFE final: 10424
+Tiempo final: 2.5099 segundos
+Validacion de integridad: True
+
+Mejora obtenida:
+Diferencia de fitness: 109
+Porcentaje aproximado de mejora: 27.18%
+
+Mejoras aplicadas:
+1. Poblacion inicial mas diversa.
+2. Elitismo para conservar los mejores individuos.
+3. Seleccion por torneo para elegir padres con mejor fitness.
+4. Cruza enfocada en intercambiar posiciones de gaps.
+5. Mutacion mejorada que puede insertar, mover y eliminar gaps.
+6. Busqueda local para intentar mejorar cada hijo antes de pasarlo a la siguiente generacion.
+7. Validacion de integridad para comprobar que las secuencias siguen siendo las mismas al quitar los gaps.
